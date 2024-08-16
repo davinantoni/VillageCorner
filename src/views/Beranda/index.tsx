@@ -3,11 +3,11 @@ import Image from "next/image";
 const BerandaViews = () => {
     return (
         <main>
-            <div className="relative w-full h-[544px]">
+            <div className="relative w-full h-[100vh]">
                 <Image
                     src="/Image/Desa nglanggeran 2.png"
                     alt="Desa Nglanggeran"
-                    layout="fill" // Menggunakan layout fill agar gambar memenuhi container
+                    layout="fill" objectFit="cover" // Menggunakan layout fill agar gambar memenuhi container
                     // objectFit="cover" // Mengatur gambar agar cover seluruh container
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
