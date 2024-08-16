@@ -23,11 +23,11 @@ const BerandaViews = () => {
                 <div>
                     <p className="tracking-extra_wide font-bold text-[#898121] text-lg pb-3">WISATA BERKELANJUTAN</p>
                     <h1 className="text-3xl font-bold pb-2">Apa Manfaat dari <br/> <span className="text-[#E7B10A]">Sustainable Tourism ?</span></h1>
-                    <button className="text-xs bg-[#E7B10A] text-white font-medium px-2.5 py-0.5 border-4 border-solid border-[#E7B10A] rounded-full hover:bg-[#CC9F14] hover:border-[#CC9F14]">Pelajari Lebih Lanjut &gt;</button>
+                    <button className="text-xs bg-[#E7B10A] text-white font-bold px-2.5 py-1 border-4 border-solid border-[#E7B10A] rounded-full hover:bg-[#CC9F14] hover:border-[#CC9F14]">Pelajari Lebih Lanjut &gt;</button>
                 </div>
 
-                <div className="flex flex-wrap mt-20 mb-20 justify-center items-center">
-                    <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl">
+                <div className="flex flex-wrap mt-20 mb-20 justify-center items-center ">
+                    <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700">
                         <div className="pb-6">
                             <Image src="/Image/lingkungan.png" alt="Lingkungan" width={100} height={100}/>
                         </div>
@@ -37,7 +37,7 @@ const BerandaViews = () => {
                         </div>                       
                     </div>
 
-                    <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl">
+                    <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700">
                         <div className="pb-6">
                             <Image src="/Image/Ekonomi 2.png" alt="Ekonomi" width={100} height={100}/>
                         </div>
@@ -47,7 +47,7 @@ const BerandaViews = () => {
                         </div>                       
                     </div>
 
-                    <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl">
+                    <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700">
                         <div className="pb-6">
                             <Image src="/Image/Sosial 2.png" alt="Sosial" width={100} height={100}/>
                         </div>
@@ -60,7 +60,26 @@ const BerandaViews = () => {
             </div>
 
             <div className="bg-[#77701F]">
+                <div>
+                    <p className="tracking-extra_wide font-bold text-[#4C4B16] text-lg pb-3">DESA WISATA & AKTIVITAS</p>
+                    <h1 className="text-3xl font-bold pb-2 text-white">Jelajahi <span className="text-[#E7B10A]">Desa Wisata</span> dan
+                        <span className="text-[#E7B10A]"> Aktivitasnya</span></h1>
+                </div>
 
+                <div className="flex flex-wrap mt-20 mb-20 justify-center items-center ">
+                    <div className="bg-white">
+                        <a href="">
+                            <Image src="/Image/Desa nglanggeran.png" alt="Desa Nglanggeran" width={300} height={300}/>
+                        </a>
+
+                        <div>
+                            <a href="">
+                                <h1>Desa Wisata Nglanggeran</h1>
+                            </a>
+                            <p>Kabupaten Gunungkidul</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     )
