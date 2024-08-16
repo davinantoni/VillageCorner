@@ -3,11 +3,11 @@ import Image from "next/image";
 const BerandaViews = () => {
     return (
         <main>
-            <div className="relative w-full h-[544px]">
+            <div className="relative w-full h-[100vh]">
                 <Image
                     src="/Image/Desa nglanggeran 2.png"
                     alt="Desa Nglanggeran"
-                    layout="fill" // Menggunakan layout fill agar gambar memenuhi container
+                    layout="fill" objectFit="cover" // Menggunakan layout fill agar gambar memenuhi container
                     // objectFit="cover" // Mengatur gambar agar cover seluruh container
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
@@ -23,7 +23,7 @@ const BerandaViews = () => {
                 <div>
                     <p className="tracking-extra_wide font-bold text-[#898121] text-lg pb-3">WISATA BERKELANJUTAN</p>
                     <h1 className="text-3xl font-bold pb-2">Apa Manfaat dari <br/> <span className="text-[#E7B10A]">Sustainable Tourism ?</span></h1>
-                    <button className="text-xs bg-[#E7B10A] text-white font-medium px-2.5 py-0.5 border-4 border-solid border-[#E7B10A] rounded-full hover:bg-[#CC9F14] hover:border-[#CC9F14]">Pelajari Lebih Lanjut &gt;</button>
+                    <button className="text-xs bg-[#E7B10A] text-white font-bold px-2.5 py-1 border-4 border-solid border-[#E7B10A] rounded-full hover:bg-[#CC9F14] hover:border-[#CC9F14]">Pelajari Lebih Lanjut &gt;</button>
                 </div>
 
                 <div className="flex flex-wrap mt-20 mb-20 justify-center items-center">
