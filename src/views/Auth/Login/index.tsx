@@ -1,19 +1,74 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
-import styles from "./Login.module.css";
 
 const LoginViews = () => {
     const {push} = useRouter();
     const handlerLogin = () => {
-        // push("/home");
+         push("/");
     }
 
     return (
-        <div className={styles.login}>
-            <h1>Login Page</h1>
-            <button onClick={handlerLogin}>Login</button>
-            Belum punya akun ? Registrasi <Link href="/auth/register">Disini</Link>
-        </div>
+        <main>
+            <div className="relative w-full h-[100vh]">
+                <Image
+                    src="/Image/Desa nglanggeran 2.png"
+                    alt="Desa Nglanggeran"
+                    fill={true} className="object-cover" // Menggunakan layout fill agar gambar memenuhi container
+                    // objectFit="cover" // Mengatur gambar agar cover seluruh container
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+                
+                <div className="relative flex items-center justify-evenly w-full h-full px-4">
+                    <div className="bg-white p-10 rounded-xl w-[90%] max-w-md">
+                        <h2 className="text-[#898121] text-3xl font-semibold mb-10">Masuk</h2>
+                        
+                        <form>
+                            <div className="mb-4">
+                                <label htmlFor="email" className=""></label>
+                                {/* <div className="">
+                                    <Image src="/Image/Icon/email.png" alt="Email Icon" width={20} height={20} />
+                                </div> */}
+                                <input
+                                    type="email"
+                                    id="email"
+                                    placeholder="Email Anda"
+                                    className="w-full p-3 border border-gray-300 rounded-lg"
+                                />
+                            </div>
+                            <div className="mb-6">
+                                <label htmlFor="password" className=""></label>
+                                <input
+                                    type="password"
+                                    id="password"
+                                    placeholder="Kata Sandi"
+                                    className="w-full p-3 border border-gray-300 rounded-lg"
+                                />
+                            </div>
+                            <button onClick={handlerLogin} type="submit" className="w-full bg-[#898121] text-white py-3 rounded-lg font-semibold hover:bg-[#6F691A]">
+                                Masuk
+                            </button>
+                        </form>
+
+                        <div className="text-right mt-4">
+                            <Link href="#" className="text-sm text-[#898121] font-semibold">Lupa kata sandi?</Link>            
+                        </div>
+
+                        <div className="text-center mt-6">
+                            <Link href="/auth/register" className="text-sm text-[#6B8F71] hover:text-[#577F5B]">Belum punya akun? <span className="text-[#898121] font-semibold">Buat Akun</span></Link>
+                        </div>
+                    </div>
+
+                    {/* hidden md:block */}
+                    <div className="text-white max-w-xl text-center">
+                        <h1 className="text-4xl font-bold leading-tight">
+                            Discover Your <span className="text-[#E7B10A]">Sustainable Journey </span>
+                            in Indonesia’s <span className="text-[#E7B10A]">Tourism Villages</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </main>
     )
 }
 

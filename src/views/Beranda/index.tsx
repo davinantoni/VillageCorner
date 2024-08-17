@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const BerandaViews = () => {
     return (
@@ -29,7 +30,7 @@ const BerandaViews = () => {
                 <div className="flex flex-wrap justify-center items-center ">
                     <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700">
                         <div className="pb-6">
-                            <Image src="/Image/lingkungan.png" alt="Lingkungan" width={100} height={100}/>
+                            <Image src="/Image/Beranda/lingkungan.png" alt="Lingkungan" width={100} height={100}/>
                         </div>
                         <div>
                             <h1 className="font-bold text-2xl mb-5">Lingkungan</h1>
@@ -39,7 +40,7 @@ const BerandaViews = () => {
 
                     <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700">
                         <div className="pb-6">
-                            <Image src="/Image/Ekonomi 2.png" alt="Ekonomi" width={100} height={100}/>
+                            <Image src="/Image/Beranda/Ekonomi 2.png" alt="Ekonomi" width={100} height={100}/>
                         </div>
                         <div>
                             <h1 className="font-bold text-2xl mb-5">Ekonomi</h1>
@@ -49,7 +50,7 @@ const BerandaViews = () => {
 
                     <div className="bg-white flex flex-col justify-center items-center gap-5 pt-12 pb-12 m-2.5 text-center w-full max-w-xs border border-gray-200 rounded-3xl shadow dark:bg-gray-800 dark:border-gray-700">
                         <div className="pb-6">
-                            <Image src="/Image/Sosial 2.png" alt="Sosial" width={100} height={100}/>
+                            <Image src="/Image/Beranda/Sosial 2.png" alt="Sosial" width={100} height={100}/>
                         </div>
                         <div>
                             <h1 className="font-bold text-2xl mb-5">Sosial</h1>
@@ -68,61 +69,61 @@ const BerandaViews = () => {
 
                 <div className="flex flex-wrap justify-between items-center">
                     <div className="bg-white flex flex-col justify-center gap-5 rounded-3xl pb-6 mb-5">
-                        <a href="">
-                            <Image src="/Image/Desa nglanggeran.png" alt="Desa Nglanggeran" width={310} height={310}
+                        <Link href="">
+                            <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Nglanggeran" width={310} height={310}
                                 className="rounded-t-3xl h-[44vh]"
                             />
-                        </a>
+                        </Link>
 
                         <div className="px-4">
-                            <a href="">
+                            <Link href="">
                                 <h1 className="font-bold text-xl pb-1">Desa Wisata Nglanggeran</h1>
-                            </a>
+                            </Link>
                             <p className="opacity-75">Kabupaten Gunungkidul</p>
                         </div>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5  rounded-3xl pb-6 mb-5">
-                        <a href="">
-                            <Image src="/Image/Belajar batik.jpg" alt="Belajar Batik" width={310} height={300}
+                        <Link href="">
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Belajar Batik" width={310} height={300}
                                 className="rounded-t-3xl h-[44vh]"
                             />
-                        </a>
+                        </Link>
 
                         <div className="px-4">
-                            <a href="">
+                            <Link href="">
                                 <h1 className="font-bold text-xl pb-1">Edukasi Batik Topeng</h1>
-                            </a>
+                            </Link>
                             <p className="opacity-75">Desa Wisata Nglanggeran</p>
                         </div>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5  rounded-3xl pb-6 mb-5">
-                        <a href="">
-                            <Image src="/Image/Desa nglanggeran.png" alt="Desa Panglipuran" width={310} height={300}
+                        <Link href="">
+                            <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Panglipuran" width={310} height={300}
                                 className="rounded-t-3xl h-[44vh]"
                             />
-                        </a>
+                        </Link>
 
                         <div className="px-4">
-                            <a href="">
+                            <Link href="">
                                 <h1 className="font-bold text-xl pb-1">Desa Wisata Panglipuran</h1>
-                            </a>
+                            </Link>
                             <p className="opacity-75">Kabupaten Bangli</p>
                         </div>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5 rounded-3xl pb-6 mb-5">
-                        <a href="">
-                            <Image src="/Image/Desa nglanggeran.png" alt="Belajar Batik" width={310} height={300}
+                        <Link href="">
+                            <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Belajar Batik" width={310} height={300}
                                 className="rounded-t-3xl h-[44vh]"
                             />
-                        </a>
+                        </Link>
 
                         <div className="px-4">
-                            <a href="">
+                            <Link href="">
                                 <h1 className="font-bold text-xl pb-1">Edukasi Batik Topeng</h1>
-                            </a>
+                            </Link>
                             <p className="opacity-75">Desa Wisata Nglanggeran</p>
                         </div>
                     </div>
