@@ -6,7 +6,7 @@ const BerandaViews = () => {
         <main>
             <div className="relative w-full h-[100vh]">
                 <Image
-                    src="/Image/Desa nglanggeran 2.png"
+                    src="/Image/Beranda/Desa nglanggeran 2.png"
                     alt="Desa Nglanggeran"
                     fill={true} className="object-cover" // Menggunakan layout fill agar gambar memenuhi container
                     // objectFit="cover" // Mengatur gambar agar cover seluruh container

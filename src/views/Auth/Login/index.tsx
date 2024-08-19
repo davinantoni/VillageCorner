@@ -12,7 +12,7 @@ const LoginViews = () => {
         <main>
             <div className="relative w-full h-[100vh]">
                 <Image
-                    src="/Image/Desa nglanggeran 2.png"
+                    src="/Image/Beranda/Desa nglanggeran 2.png"
                     alt="Desa Nglanggeran"
                     fill={true} className="object-cover" // Menggunakan layout fill agar gambar memenuhi container
                     // objectFit="cover" // Mengatur gambar agar cover seluruh container
@@ -24,26 +24,31 @@ const LoginViews = () => {
                         <h2 className="text-[#898121] text-3xl font-semibold mb-10">Masuk</h2>
                         
                         <form>
-                            <div className="mb-4">
-                                <label htmlFor="email" className=""></label>
-                                {/* <div className="">
-                                    <Image src="/Image/Icon/email.png" alt="Email Icon" width={20} height={20} />
-                                </div> */}
-                                <input
-                                    type="email"
-                                    id="email"
-                                    placeholder="Email Anda"
-                                    className="w-full p-3 border border-gray-300 rounded-lg"
-                                />
+                            <div className="mb-4 flex items-center">
+                                <div className="flex items-center border border-gray-300 rounded-lg w-full overflow-hidden">
+                                    <div className="p-3">
+                                        <Image src="/Image/Icon/email.png" alt="Email Icon" width={24} height={24} />
+                                    </div>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        placeholder="Email Anda"
+                                        className="w-full p-3 outline-none"
+                                    />
+                                </div>
                             </div>
                             <div className="mb-6">
-                                <label htmlFor="password" className=""></label>
-                                <input
+                                <div className="flex items-center border border-gray-300 rounded-lg w-full overflow-hidden">
+                                    <div className="p-3">
+                                        <Image src="/Image/Icon/Password.png" alt="Password Icon" width={24} height={24} />
+                                    </div>
+                                    <input
                                     type="password"
                                     id="password"
                                     placeholder="Kata Sandi"
-                                    className="w-full p-3 border border-gray-300 rounded-lg"
-                                />
+                                    className="w-full p-3 outline-none"
+                                    />
+                                </div>
                             </div>
                             <button onClick={handlerLogin} type="submit" className="w-full bg-[#898121] text-white py-3 rounded-lg font-semibold hover:bg-[#6F691A]">
                                 Masuk
