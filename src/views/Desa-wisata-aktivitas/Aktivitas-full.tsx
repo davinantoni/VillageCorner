@@ -25,13 +25,81 @@ const ViewsAktivitasLengkap = () => {
                 <hr className="h-0.5 my-4 bg-[#4C4B16]"/>
 
                 <div className="flex flex-wrap justify-between items-center pt-4 gap-3">
-                    <Link href="">
+                <Link href="/detail/detail-aktivitas">
                         <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
+                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
+
+                            <div className="absolute bottom-10 left-5">
+                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
+                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
+                            </div>
+                        </div>
+                    </Link> 
+
+                    <Link href="/detail/detail-aktivitas">
+                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
+                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
+
+                            <div className="absolute bottom-10 left-5">
+                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
+                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link href="/detail/detail-aktivitas">
+                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
+                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
+
+                            <div className="absolute bottom-10 left-5">
+                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
+                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link href="/detail/detail-aktivitas">
+                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
+                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
+
+                            <div className="absolute bottom-10 left-5">
+                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
+                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link href="/detail/detail-aktivitas">
+                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
+                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
+
+                            <div className="absolute bottom-10 left-5">
+                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
+                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link href="/detail/detail-aktivitas">
+                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
                             <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
 
                             <div className="absolute bottom-10 left-5">
@@ -40,86 +108,6 @@ const ViewsAktivitasLengkap = () => {
                             </div>
                         </div>
                     </Link>  
-
-                    <Link href="">
-                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
-                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
-
-                            <div className="absolute bottom-10 left-5">
-                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
-                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
-                            </div>
-                        </div>
-                    </Link>  
-
-                    <Link href="">
-                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
-                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
-
-                            <div className="absolute bottom-10 left-5">
-                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
-                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
-                            </div>
-                        </div>
-                    </Link>  
-
-                    <Link href="">
-                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
-                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
-
-                            <div className="absolute bottom-10 left-5">
-                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
-                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
-                            </div>
-                        </div>
-                    </Link>  
-
-                    <Link href="">
-                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
-                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
-
-                            <div className="absolute bottom-10 left-5">
-                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
-                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
-                            </div>
-                        </div>
-                    </Link>  
-
-                    <Link href="">
-                        <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
-                            <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
-
-                            <div className="absolute bottom-10 left-5">
-                                <h1 className="font-bold text-lg text-white">Edukasi Batik Topeng</h1>
-                                <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
-                            </div>
-                        </div>
-                    </Link>    
                 </div>
             </div>
         </main>

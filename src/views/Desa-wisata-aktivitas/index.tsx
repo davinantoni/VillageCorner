@@ -37,93 +37,81 @@ const DesaDanAktivitasViews = () => {
 
                 <div className="flex flex-wrap justify-between items-center pt-4 gap-3">
                     <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                        <Link href="">
+                        <Link href="/detail/detail-desa-wisata">
                             <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Nglanggeran" width={411} height={310}
                                 className="rounded-2xl h-[40vh] w-full"
                             />
-                        </Link>
 
-                        <div className="absolute bottom-10 left-5">
-                            <Link href="">
+                            <div className="absolute bottom-10 left-5">
                                 <h1 className="font-bold text-lg text-white">Desa Wisata Nglanggeran</h1>
-                            </Link>
-                            <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
-                        </div>
+                                <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                        <Link href="">
+                        <Link href="/detail/detail-desa-wisata">
                             <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Nglanggeran" width={411} height={310}
                                 className="rounded-2xl h-[40vh] w-full"
                             />
-                        </Link>
 
-                        <div className="absolute bottom-10 left-5">
-                            <Link href="">
+                            <div className="absolute bottom-10 left-5">
                                 <h1 className="font-bold text-lg text-white">Desa Wisata Nglanggeran</h1>
-                            </Link>
-                            <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
-                        </div>
+                                <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                        <Link href="">
+                        <Link href="/detail/detail-desa-wisata">
                             <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Nglanggeran" width={411} height={310}
                                 className="rounded-2xl h-[40vh] w-full"
                             />
-                        </Link>
 
-                        <div className="absolute bottom-10 left-5">
-                            <Link href="">
+                            <div className="absolute bottom-10 left-5">
                                 <h1 className="font-bold text-lg text-white">Desa Wisata Nglanggeran</h1>
-                            </Link>
-                            <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
-                        </div>
+                                <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                        <Link href="">
+                        <Link href="/detail/detail-desa-wisata">
                             <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Nglanggeran" width={411} height={310}
                                 className="rounded-2xl h-[40vh] w-full"
                             />
-                        </Link>
 
-                        <div className="absolute bottom-10 left-5">
-                            <Link href="">
+                            <div className="absolute bottom-10 left-5">
                                 <h1 className="font-bold text-lg text-white">Desa Wisata Nglanggeran</h1>
-                            </Link>
-                            <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
-                        </div>
+                                <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                        <Link href="">
+                        <Link href="/detail/detail-desa-wisata">
                             <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Nglanggeran" width={411} height={310}
                                 className="rounded-2xl h-[40vh] w-full"
                             />
-                        </Link>
 
-                        <div className="absolute bottom-10 left-5">
-                            <Link href="">
+                            <div className="absolute bottom-10 left-5">
                                 <h1 className="font-bold text-lg text-white">Desa Wisata Nglanggeran</h1>
-                            </Link>
-                            <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
-                        </div>
+                                <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                        <Link href="">
+                        <Link href="/detail/detail-desa-wisata">
                             <Image src="/Image/Beranda/Desa nglanggeran.png" alt="Desa Nglanggeran" width={411} height={310}
                                 className="rounded-2xl h-[40vh] w-full"
                             />
-                        </Link>
 
-                        <div className="absolute bottom-10 left-5">
-                            <Link href="">
+                            <div className="absolute bottom-10 left-5">
                                 <h1 className="font-bold text-lg text-white">Desa Wisata Nglanggeran</h1>
-                            </Link>
-                            <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
-                        </div>
+                                <p className="text-white opacity-70 text-sm">Kabupaten Gunungkidul</p>
+                            </div>
+                        </Link>
                     </div>
                 </div>
 
@@ -137,13 +125,11 @@ const DesaDanAktivitasViews = () => {
                 <hr className="h-0.5 my-4 bg-[#4C4B16]"/>
 
                 <div className="flex flex-wrap justify-between items-center pt-4 gap-3">
-                    <Link href="">
+                    <Link href="/detail/detail-aktivitas">
                         <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
                             <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
 
                             <div className="absolute bottom-10 left-5">
@@ -153,13 +139,11 @@ const DesaDanAktivitasViews = () => {
                         </div>
                     </Link>  
 
-                    <Link href="">
+                    <Link href="/detail/detail-aktivitas">
                         <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
                             <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
 
                             <div className="absolute bottom-10 left-5">
@@ -167,15 +151,13 @@ const DesaDanAktivitasViews = () => {
                                 <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
                             </div>
                         </div>
-                    </Link>  
+                    </Link> 
 
-                    <Link href="">
+                    <Link href="/detail/detail-aktivitas">
                         <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
                             <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
 
                             <div className="absolute bottom-10 left-5">
@@ -183,15 +165,13 @@ const DesaDanAktivitasViews = () => {
                                 <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
                             </div>
                         </div>
-                    </Link>  
+                    </Link>
 
-                    <Link href="">
+                    <Link href="/detail/detail-aktivitas">
                         <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
                             <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
 
                             <div className="absolute bottom-10 left-5">
@@ -199,15 +179,13 @@ const DesaDanAktivitasViews = () => {
                                 <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
                             </div>
                         </div>
-                    </Link>  
+                    </Link>
 
-                    <Link href="">
+                    <Link href="/detail/detail-aktivitas">
                         <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
                             <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
 
                             <div className="absolute bottom-10 left-5">
@@ -215,15 +193,13 @@ const DesaDanAktivitasViews = () => {
                                 <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
                             </div>
                         </div>
-                    </Link>  
+                    </Link>
 
-                    <Link href="">
+                    <Link href="/detail/detail-aktivitas">
                         <div className="bg-white flex flex-col justify-center gap-5 pb-6 relative w-[29vw]">
-                            <Link href="">
-                                <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
-                                    className="rounded-2xl h-[40vh] w-full"
-                                />
-                            </Link>
+                            <Image src="/Image/Beranda/Belajar batik.jpg" alt="Desa Nglanggeran" width={411} height={310}
+                                className="rounded-2xl h-[40vh] w-full"
+                            />
                             <div className="absolute rounded-2xl h-[40vh] w-full bg-black opacity-30"></div>
 
                             <div className="absolute bottom-10 left-5">
@@ -231,7 +207,7 @@ const DesaDanAktivitasViews = () => {
                                 <p className="text-white opacity-70 text-sm">Desa Wisata Nglanggeran</p>
                             </div>
                         </div>
-                    </Link>    
+                    </Link>
                 </div>
 
                 <div className="text-center">
