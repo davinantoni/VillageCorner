@@ -1,18 +1,17 @@
-import LoginViews from "@/views/Auth/Login";
+import ViewsAktivitasLengkap from "@/views/Desa-wisata-aktivitas/Aktivitas-full";
 import Head from "next/head";
-
-const LoginPage = () => {
-    return(
+const aktivitasFullPage = () => {
+    return (
         <>
         <Head>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="icon" href="/favicon.ico" />
-            <title>Login</title>
+            <title>Desa Wisata Lengkap</title>
         </Head>
-            <LoginViews/>
+            <ViewsAktivitasLengkap />
         </>
-    );
-};
+    )
+}
 
-export default LoginPage
+export default aktivitasFullPage;
