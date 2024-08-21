@@ -13,6 +13,9 @@ module.exports = {
       letterSpacing: {
         extra_wide: '0.2em',
       },
+      fontSize: {
+        'big-xl': ['16rem', { lineHeight: '16.8rem' }],
+      },
     },
   },
   plugins: [],

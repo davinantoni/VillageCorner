@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
                 <div>
                     <ul className="flex items-center gap-[4.3vw]">
                         <li>
-                            <a href="#" className="font-bold text-white hover:text-[#E7B10A]">Beranda</a>
+                            <Link href={"/"} className="font-bold text-white hover:text-[#E7B10A]">Beranda</Link>
                         </li>
                         <li>
                             <a href="#" className="font-bold text-white hover:text-[#E7B10A]">Desa Wisata dan Aktivitas</a>
@@ -19,7 +20,7 @@ const Navbar = () => {
                             <a href="#" className="font-bold text-white hover:text-[#E7B10A]">Tur Virtual</a>
                         </li>
                         <li>
-                            <a href="#" className="font-bold text-white hover:text-[#E7B10A]">Wisata Berkelanjutan</a>
+                            <Link href={"/wisata-berkelanjutan"} className="font-bold text-white hover:text-[#E7B10A]">Wisata Berkelanjutan</Link>
                         </li>
                         <li>
                             <a href="#" className="font-bold text-white hover:text-[#E7B10A]">Tentang Kami</a>
@@ -28,8 +29,8 @@ const Navbar = () => {
                 </div>
                 <div>
                     <div className="">
-                        <button className="mr-4 text-[#E7B10A] tracking-widest font-bold px-5 py-1 border-2 border-solid border-[#E7B10A] rounded-full hover:scale-105">LOGIN</button>
-                        <button className="mr-4 bg-[#E7B10A] text-white tracking-widest font-bold px-5 py-1 border-2 border-solid border-[#E7B10A] rounded-full hover:scale-105">REGISTER</button>
+                        <button className="mr-4 text-[#E7B10A] tracking-widest font-bold px-5 py-1 border-2 border-solid border-[#E7B10A] rounded-full hover:scale-105 transition ease-in-out delay-150 hover:-translate-y-0.5 duration-300">LOGIN</button>
+                        <button className="mr-4 bg-[#E7B10A] text-white tracking-widest font-bold px-5 py-1 border-2 border-solid border-[#E7B10A] rounded-full hover:scale-105 transition ease-in-out delay-150 hover:-translate-y-0.5 duration-300">REGISTER</button>
                     </div>
                 </div>
             </nav>
