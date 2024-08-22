@@ -34,7 +34,7 @@ const Navbar = () => {
                             <Link href={"/wisata-berkelanjutan"} className="font-bold text-white hover:text-[#E7B10A]">Wisata Berkelanjutan</Link>
                         </li>
                         <li>
-                            <Link href="#" className="font-bold text-white hover:text-[#E7B10A]">Tentang Kami</Link>
+                            <Link href={"/tentang-kami"} className="font-bold text-white hover:text-[#E7B10A]">Tentang Kami</Link>
                         </li>
                     </ul>
                 </div>

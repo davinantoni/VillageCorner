@@ -6,7 +6,8 @@ const Footer = () => {
             <div className="flex gap-4 py-4 ">
                 <div className="flex flex-1 items-center">
                     <Image src="/Image/logo putih krem.png" width= { 150 } height= {300} alt="Logo"></Image>
-                    <p className="font-semibold text-lg" >Discover Your <span className="text-[#E7B10A]">Sustainable Journey</span>  in Indonesia’s <span className="text-[#E7B10A]">Tourism Villages</span></p>
+                    <p className="font-semibold text-lg" >Jelajahi  
+                    <span className="text-[#E7B10A]"> Petualangan Berkelanjutan</span> Anda di <span className="text-[#E7B10A]">Desa Wisata</span> Indonesia</p>
                 </div>
 
                 <div className="flex-1">

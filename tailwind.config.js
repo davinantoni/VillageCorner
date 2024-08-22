@@ -16,6 +16,31 @@ module.exports = {
       fontSize: {
         'big-xl': ['16rem', { lineHeight: '16.8rem' }],
       },
+      borderRadius: {
+        'big-xl': '12.5rem',
+      },
+      keyframes: {
+        moveline: {
+          '0%': {
+            height: '0'
+          },
+          '100%': {
+            height: '200%'
+          }
+        },
+        slide: {
+          from: { 
+            transform: 'translateX(0)' 
+          },
+          to: { 
+            transform: 'translateX(-100%)' 
+          },
+        },
+      },
+      animation: {
+        'appear': 'moveline 6s linear forwards',
+        'slide': 'slide 35s linear infinite',
+      },
     },
   },
   plugins: [],
