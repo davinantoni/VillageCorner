@@ -120,7 +120,7 @@ const DesaDanAktivitasViews = () => {
                 </div>
             </div>
 
-            <div className="px-16">
+            <div className="px-16 pb-16">
                 <h1 className="font-bold text-[#4C4B16] text-4xl">Jelajahi Aktivitas Wisata</h1>
                 <hr className="h-0.5 my-4 bg-[#4C4B16]"/>
 
