@@ -1,8 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Views_detailPenginapan = () => {
-
+    const { push } = useRouter();
+    const handlerBayar = () => {
+        push("/pembayaran");
+    }
     return (
         <main>
             <div className="p-14">
@@ -44,7 +48,7 @@ const Views_detailPenginapan = () => {
 
                         <div className="text-center">
                             <h1 className="font-bold text-[#4C4B16] text-4xl pb-2">Rp 200.000 <span className="text-xl">/malam</span></h1>
-                            <button className="text-xs bg-[#E7B10A] text-white font-semibold px-2.5 py-1 border-4 border-solid border-[#E7B10A] rounded-full hover:bg-[#CC9F14] hover:border-[#CC9F14]">Pesan Sekarang</button>
+                            <button onClick={handlerBayar} className="text-xs bg-[#E7B10A] text-white font-semibold px-2.5 py-1 border-4 border-solid border-[#E7B10A] rounded-full hover:bg-[#CC9F14] hover:border-[#CC9F14]">Pesan Sekarang</button>
                         </div>
                     </div>
                 </section>
