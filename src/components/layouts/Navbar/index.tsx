@@ -16,7 +16,7 @@ const Navbar = () => {
             <nav className="absolute top-0 left-0 w-full flex items-center justify-between pl-5 z-10 pr-5">
                 <div>
                     <Link href="/">
-                        <Image src="/Image/Logo putih krem.png" alt="logo" width={70} height={70} />
+                        <Image src="/Image/logo putih krem.png" alt="logo" width={70} height={70} />
                     </Link>
                 </div>
                 <div>
@@ -24,7 +24,7 @@ const Navbar = () => {
                         <li>
                             <Link href="/" className="font-bold text-white hover:text-[#E7B10A]">Beranda</Link>
                         </li>
-                        <li>
+                        <li>    
                             <Link href="/desa-wisata-aktivitas" className="font-bold text-white hover:text-[#E7B10A]">Desa Wisata dan Aktivitas</Link>
                         </li>
                         <li>

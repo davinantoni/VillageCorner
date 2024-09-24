@@ -27,7 +27,7 @@ const LoginViews = () => {
                             <div className="mb-4 flex items-center">
                                 <div className="flex items-center border border-gray-300 rounded-lg w-full overflow-hidden">
                                     <div className="p-3">
-                                        <Image src="/Image/Icon/email.png" alt="Email Icon" width={24} height={24} />
+                                        <Image src="/Image/Icon/Email.png" alt="Email Icon" width={24} height={24} />
                                     </div>
                                     <input
                                         type="email"
