@@ -28,7 +28,7 @@ const Navbar = () => {
                             <Link href="/desa-wisata-aktivitas" className="font-bold text-white hover:text-[#E7B10A]">Desa Wisata dan Aktivitas</Link>
                         </li>
                         <li>
-                            <Link href="#" className="font-bold text-white hover:text-[#E7B10A]">Tur Virtual</Link>
+                            <Link href={"/tur-virtual"} className="font-bold text-white hover:text-[#E7B10A]">Tur Virtual</Link>
                         </li>
                         <li>
                             <Link href={"/wisata-berkelanjutan"} className="font-bold text-white hover:text-[#E7B10A]">Wisata Berkelanjutan</Link>
