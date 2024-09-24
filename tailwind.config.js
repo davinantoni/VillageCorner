@@ -40,6 +40,7 @@ module.exports = {
       animation: {
         'appear': 'moveline 6s linear forwards',
         'slide': 'slide 35s linear infinite',
+        'slow-bounce': 'bounce 3s infinite',
       },
     },
   },
